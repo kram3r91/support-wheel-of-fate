@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomePage from "./modules/Home/Home.module";
 import EngineersPage from "./modules/Engineers/Engineers.module";
+import AddEngineerPage from "./modules/Add/Add.module";
 
 import Navigation from "./components/Navigation/Navigation.component";
 
@@ -10,6 +11,9 @@ export default function App() {
     <Router>
       <Navigation />
       <Switch>
+        <Route path="/add-engineer">
+          <AddEngineerPage />
+        </Route>
         <Route path="/engineers">
           <EngineersPage />
         </Route>

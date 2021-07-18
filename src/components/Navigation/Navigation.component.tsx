@@ -1,7 +1,9 @@
 import React from "react";
 
 import { Container, Grid, Button } from "@material-ui/core";
+
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 import "./Navigation.component.css";
 
@@ -32,6 +34,13 @@ class Navigation extends React.Component {
                     <Grid
                         item
                     >
+                        <Button
+                            onClick={() => (
+                                window.location.href="/add-engineer"
+                            )}>
+                            <AddCircleIcon />
+                            Add engineer
+                        </Button>
                         <Button
                             onClick={() => (
                                 window.location.href="/engineers"
