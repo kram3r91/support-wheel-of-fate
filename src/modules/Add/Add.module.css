@@ -1,0 +1,16 @@
+.addEngineer-form {
+    width: 100%;
+}
+.form-buttons {
+    text-align: right;
+}
+.form-buttons > * {
+    margin: 0 8px !important;
+}
+.addEngineer-button {
+    color: rgb(15, 163, 15);
+    border: 1px solid rgb(15, 163, 15);
+}
+.addEngineer-button:hover {
+    background-color: rgba(15, 163, 15, 0.04);
+}
