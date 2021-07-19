@@ -65,7 +65,7 @@ class AddEngineerPage extends React.Component<Props, State> {
         if( fullName !== "" && department !== "" && experience !== "" ) {
 
             var engineers = JSON.parse(localStorage.getItem("engineers") || "[]");
-            var engineer = {"fullName": fullName, "department": department, "experience": experience}
+            var engineer = {"id": engineers.length+1, "fullName": fullName, "department": department, "experience": experience}
 
             engineers.push(engineer);
 
