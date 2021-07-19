@@ -78,7 +78,7 @@ class EngineersPage extends React.Component<Props, State> {
                         item
                         xs={12}
                     >
-                        <h3>Engineers page</h3>
+                        <h3>All engineers</h3>
                     </Grid>
                     <Grid
                         item
